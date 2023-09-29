@@ -1,0 +1,19 @@
+@media (max-width: 320px) {
+    .hero-text, .hero-btn{
+        text-align: center;
+    }
+    .hero-text .slogan{
+        width: 290px;
+    }
+    .hero-text .slogan ~ p{
+        width: 295px;
+    }
+}
+@media (max-width: 375px) {
+    .hero-text .slogan{
+        width: 290px;
+    }
+    .hero-text .slogan ~ p{
+        width: 295px;
+    }
+}

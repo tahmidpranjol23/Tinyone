@@ -1,0 +1,123 @@
+/* root css start */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'PT Sans', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color1: #fcdb00;
+    --color2: #010101;
+    --sans: 'PT Sans';
+}
+
+/* root css end */
+
+/* navbar */
+.navbar{
+    background-color: #fcdb00;
+}
+.navbar-toggler{
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav-link{
+    font-family: var(--sans);
+    font-weight: bold;
+    font-size: 22px;
+}
+.navbar-brand, .navbar-brand img{
+    font-weight: bold;
+}
+/* home */
+
+#home{
+    background-color: #fcdb00;
+    padding-top: 70px;
+    width: 100%;
+}
+.hero-text .head{
+    font-weight: bold;
+    font-size: 32px;
+    color: #010101;
+}
+.hero-text .slogan{
+    font-size: 20px;
+    width: 350px;
+    color: #313841;
+}
+.hero-text .slogan ~ p{
+    width: 420px;
+    font-size: 16px;
+    color: #82793e;
+}
+.fa-brands{
+    font-size: 42px;
+}
+.btn-outline-dark:hover{
+    background-color: #010101;
+    color: #ffffff;
+}
+.fa-cloud-arrow-down:hover{
+    color: #ffffff;
+}
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    border-radius: 50%;
+}
+/* feater */
+#features{
+    margin-bottom: 165px;
+    margin-top: 105px;
+}
+.feater-con-main p{
+    color: #313841;
+    font-size: 16px;
+    text-align: center;
+}
+.feater-con-main h2{
+    font-weight: bold;
+}
+.feater-con-main h4{
+    font-size: 22px;
+}
+.section p{
+    color: #898989;
+    font-size: 16px;
+    width: 250px;
+}
+/* footer */
+.footer{
+    background-color: var(--color2);
+}
+.footer-con-main h3{
+    color: var(--color1);
+}
+.footer-con-main p{
+    color: #898989;
+}
+.location a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.location a:hover{
+    color: var(--color1);
+}
